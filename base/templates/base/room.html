@@ -3,4 +3,12 @@
 
 {% block content %}
 <h1>{{room.name}}</h1>
+<body>
+    <p>
+        <h2>
+            {{room.host}}
+        </h2>
+        {{room.description}}
+    </p>
+</body>
 {% endblock %}
